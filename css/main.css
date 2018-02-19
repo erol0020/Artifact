@@ -84,3 +84,28 @@
   font-weight: bold;
   color: 	#ff1414;
 }
+
+
+
+.section-whiteblock-container{
+  width: 100%;
+  color: #333;
+  background-color: #eee;
+  min-height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-whiteblock{
+  max-width: 480px;
+  padding: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 200%;
+}
+.section-whiteblock > .title{
+  font-family: 'Anton', sans-serif;
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+}
