@@ -169,3 +169,42 @@
   height: 100%;
   object-fit: cover;
 }
+
+.section-contact-container{
+  width: 100%;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  height: 350px;
+}
+.section-contact{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 50px 0;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 200%;
+  font-size: 14px;
+  position: relative;
+  text-align: center;
+}
+.section-contact > .title{
+  font-weight: normal;
+  font-size: 50px;
+  font-family: 'Anton', sans-serif;
+}
+.center{
+  margin-top: 25px;
+  text-align: center;
+}
+.break{
+  display: block;
+}
+.break > a{
+  color: 	#ff1414;
+  text-decoration: none;
+  font-weight: bold;
+}
+.break > a:hover{
+  text-decoration: underline;
+}
