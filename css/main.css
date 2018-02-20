@@ -89,10 +89,10 @@
   width: 100%;
   color: #333;
   background-color: #eee;
-  min-height: 400px;
+  min-height: 100px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  padding: 100px 0;
 }
 .section-whiteblock{
   max-width: 480px;
